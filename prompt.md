@@ -8,9 +8,9 @@ Do it step-by-step strictly following the order below. Always call the uv tool w
 
 2. Activate the virtual environment.
 
-3. Fetch the Pydantic AI documentation bank code example at 'https://ai.pydantic.dev/examples/bank-support' as a code example to understand how to utilize the Pydantic AI framework. If you don't get the document in one go, repeat the fetch with an adapted start_index until you have read the whole document.
+3. Fetch the Pydantic AI documentation bank code example at 'https://ai.pydantic.dev/examples/bank-support' as a code example to understand how to utilize the Pydantic AI framework. If you get a text similar to 'Content truncated.' at the end of the document, repeat the fetch with an adapted start_index until you have read the whole document.
 
-4. Fetch the Tavily documentation at 'https://docs.tavily.com/sdk/reference/python' to understand how to implement a Tavily search in Python. If you don't get the document in one go, repeat the fetch with an adapted start_index until you have read the whole document.
+4. Fetch the Tavily documentation at 'https://docs.tavily.com/sdk/reference/python' to understand how to implement a Tavily search in Python. If you get a text similar to 'Content truncated.' at the end of the document, repeat the fetch with an adapted start_index until you have read the whole document. 
 
 5. Implement the agent.py using Tavily for the web search:
 

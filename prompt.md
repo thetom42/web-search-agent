@@ -2,21 +2,21 @@
 
 The task is to build a simple AI agent with Python and Pydantic AI that acts as a Web Search Agent.
 
-Do it step-by-step strictly following the order below. Always call the uv tool without a path.
+Do it step-by-step strictly following the order below.
 
-1. Create a Python virtual environment using uv. The venv should be in a subfolder named '.venv'.
+1. Create a Python virtual environment. The venv should be in a subfolder named '.venv'. Use the uv package manager for that. Always call the uv tool without a path. 
 
-2. Activate the virtual environment.
+2. Activate the virtual environment. 
 
-3. Fetch the Pydantic AI documentation bank code example at 'https://ai.pydantic.dev/examples/bank-support' as a code example to understand how to utilize the Pydantic AI framework. If you get a text similar to 'Content truncated.' at the end of the document, repeat the fetch with an adapted start_index until you have read the whole document.
+3. Fetch the Pydantic AI documentation bank code example at 'https://ai.pydantic.dev/examples/bank-support' as a code example to understand how to utilize the Pydantic AI framework. If the document is truncated, repeat the fetch with an adapted start_index until you have read the whole document.
 
-4. Fetch the Tavily documentation at 'https://docs.tavily.com/sdk/reference/python' to understand how to implement a Tavily search in Python. If you get a text similar to 'Content truncated.' at the end of the document, repeat the fetch with an adapted start_index until you have read the whole document. 
+4. Fetch the Tavily documentation at 'https://docs.tavily.com/sdk/reference/python' to understand how to implement a Tavily search in Python. If the document is truncated, repeat the fetch with an adapted start_index until you have read the whole document. 
 
 5. Implement the agent.py using Tavily for the web search:
 
 - Use the dotenv package for the management of environment variables. Make sure the you load the environment right at the beginning of the Python script. 
 - Make use of the decorators that come with the Pydantic AI package to achieve a good level of encapsulation like it is done in the bank-support example.
-- Use a class wrapper for Tavily search functionality. Implement real Tavily search requests instead of placeholder.
+- Use a class wrapper for Tavily search functionality. Implement the Tavily search using the Tavily Python SDK.
 - Implement the printing of the results in a dedicated function instead of putting it into the main function.
 - Use the 'openai:gpt-4o-mini' model as the agent's LLM.
 

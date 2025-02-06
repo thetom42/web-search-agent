@@ -14,7 +14,7 @@ Do it step-by-step strictly following the order below. Always call the uv tool w
 
 5. Implement the agent.py using Tavily for the web search:
 
-- Use the dotenv package for the management of environment variables.
+- Use the dotenv package for the management of environment variables. Make sure the you load the environment right at the beginning of the Python script. 
 - Make use of the decorators that come with the Pydantic AI package to achieve a good level of encapsulation like it is done in the bank-support example.
 - Use a class wrapper for Tavily search functionality. Implement real Tavily search requests instead of placeholder.
 - Implement the printing of the results in a dedicated function instead of putting it into the main function.

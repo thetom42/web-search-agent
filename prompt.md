@@ -4,13 +4,13 @@ The task is to build a simple AI agent with Python and Pydantic AI that acts as 
 
 Do it step-by-step strictly following the order below.
 
-1. Create a Python virtual environment. The venv should be in a subfolder named '.venv'. Use the uv package manager for that. Always call the uv tool without a path. 
+1. Create a Python virtual environment. The venv should be in a subfolder named '.venv'. Use the uv package manager for that. Always call the uv tool without a path.
 
-2. Activate the virtual environment. 
+2. Activate the virtual environment.
 
 3. Fetch the Pydantic AI documentation bank code example at 'https://ai.pydantic.dev/examples/bank-support' as a code example to understand how to utilize the Pydantic AI framework. If the document is truncated, repeat the fetch with an adapted start_index until you have read the whole document.
 
-4. Fetch the Tavily documentation at 'https://docs.tavily.com/sdk/reference/python' to understand how to implement a Tavily search in Python. If the document is truncated, repeat the fetch with an adapted start_index until you have read the whole document. 
+4. Fetch the Tavily documentation at 'https://docs.tavily.com/sdk/reference/python' to understand how to implement a Tavily search in Python. If the document is truncated, repeat the fetch with an adapted start_index until you have read the whole document.
 
 5. Implement the agent.py using Tavily for the web search:
 
@@ -28,6 +28,6 @@ Do it step-by-step strictly following the order below.
 - a .gitignore,
 - a requirements.txt, only the top level packages.
 
-7. Then create a run and debug configuration. As the "type" use "debugpy" instead of "python" for both the run and the debug configuration.
+8. Then create a run and debug configuration. As the "type" use "debugpy" instead of "python" for both the run and the debug configuration.
 
-8. Finally write a technical documentation in the README.md. Make sure it contains a section with detailed explanations of the agent.py code.
+9. Finally write a technical documentation in the README.md. Make sure it contains a section with detailed explanations of the agent.py code.

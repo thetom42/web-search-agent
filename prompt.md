@@ -19,6 +19,7 @@ Do it step-by-step strictly following the order below.
 - Use a class wrapper for Tavily search functionality. Implement the Tavily search using the Tavily Python SDK.
 - Implement the printing of the results in a dedicated function instead of putting it into the main function.
 - Use the 'openai:gpt-4o-mini' model as the agent's LLM.
+- For the search question, ask the user from the command line.
 
 6. Install the needed Python packages.
 

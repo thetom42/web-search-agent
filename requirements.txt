@@ -1,0 +1,7 @@
+pydantic-ai
+tavily-python
+python-dotenv
+logfire
+logfire[httpx]
+logfire[requests]
+opentelemetry-sdk
